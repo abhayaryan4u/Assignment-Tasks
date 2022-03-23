@@ -16,12 +16,7 @@ else:
   print("Number entered is a prime number")
 
 x=int(input("Enter a positive integer to check for its divisibility by 3 : "))
-sum=0
-while(x>0):
-  digit=x%10
-  sum =sum+digit
-  x=x//10
-if(sum%3==0):
-  print(" Entered number is divisible by 3")
+if(x%3==0):
+  print("Number entered is divisible by 3")
 else:
-  print("Entered number is not divisible by 3")
+  print("Number entered is not divisible by 3")
